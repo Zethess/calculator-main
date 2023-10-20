@@ -8,3 +8,10 @@ export const headerContentText = document.querySelector('.calculator-top');
 export const headerRadioBox = document.querySelector('.radio-box');
 export const mainElement = document.querySelector('main');
 /************************************ Calculator Buttons  **************************************/
+export const buttonsElementsOfNumbers = document.querySelectorAll('.btn-numbers');
+export const buttonsElementsOfOperations = document.querySelectorAll('.btn-operations');
+export const buttonForDelete = document.getElementById('btn-del');
+export const buttonForReset = document.getElementById('btn-reset');
+export const buttonForAddPoint = document.getElementById('btn-point');
+export const buttonForMakeOperation = document.getElementById('btn-equal');
+export const numberDisplay = document.getElementById('number');

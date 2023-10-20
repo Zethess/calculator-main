@@ -12,7 +12,8 @@ main{
 	background-color: var(--very-dark-desaturated-blue-main-bg);
 	font-size: 16px;
 	padding: 30px;
-
+	display: flex;
+	justify-content: center;
 }
 /*+++++++++++++++++++++++++++Main theme 2+++++++++++++++++++++++++++*/
 .main-theme-2{
@@ -22,6 +23,11 @@ main{
 .main-theme-3{
 	background-color: var(--very-dark-violet-main-bg);
 }
+
+.calculator-wrapper{
+	max-width: 523px;
+}
+
 /************************** Header ************************************/
 .calculator-top{
 	color: var(--white);
@@ -145,7 +151,7 @@ main{
 .calculator-buttons{
 
 	display: grid;
-	grid-template-columns:repeat(4, 55px);
+	grid-template-columns:repeat(4, minmax(29px, 107px));
 	gap: 15px;
 	background-color: var(--very-dark-desaturated-blue-toggle-keypad-bg);
 	padding: 24px;
