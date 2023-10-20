@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/color.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+  <title> Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(28, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+  <div class="calculator-top">
+    <h1>calc</h1>
+    <div class="theme-box">
+      <p>theme</p>
+      <div class="theme-input">
+        <div class="label-box">
+          <label for="radio-theme1">1</label>
+          <label for="radio-theme2">2</label>
+          <label for="radio-theme3">3</label>
+        </div>
+        <div class="radio-box">
+          <input id="radio-theme1" class="theme-inputs" type="radio" name="themes" checked>
+          <input id="radio-theme2" class="theme-inputs" type="radio" name="themes" >
+          <input id="radio-theme3" class="theme-inputs" type="radio" name="themes" >
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="calculator-screen">
+    <p class="number" id="number"></p>
+  </div>
+  <div class="calculator-buttons">
+    <button class="btn btn-numbers btn-color1 " id="btn-7">7</button>
+    <button class="btn btn-numbers btn-color1" id="btn-8">8</button>
+    <button class="btn btn-numbers btn-color1" id="btn-9">9</button>
+    <button class="btn btn-color2" id="btn-del">del</button>
+    <button class="btn btn-numbers btn-color1" id="btn-4">4</button>
+    <button class="btn btn-numbers btn-color1" id="btn-5">5</button>
+    <button class="btn btn-numbers btn-color1" id="btn-6">6</button>
+    <button class="btn btn-operations btn-color1" id="btn-add">+</button>
+    <button class="btn btn-numbers btn-color1" id="btn-1">1</button>
+    <button class="btn btn-numbers btn-color1" id="btn-2">2</button>
+    <button class="btn btn-numbers btn-color1" id="btn-3">3</button>
+    <button class="btn btn-operations btn-color1" id="btn-sub">-</button>
+    <button class="btn btn-color1" id="btn-point">.</button>
+    <button class="btn btn-numbers btn-color1" id="btn-0">0</button>
+    <button class="btn btn-operations btn-color1" id="btn-split">/</button>
+    <button class="btn btn-operations btn-color1" id="btn-multiply">x</button>
+    <button class="btn btn-color2" id="btn-reset">reset</button>
+    <button class="btn btn-color3" id="btn-equal">=</button>
+  </div>
+  </main>
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
