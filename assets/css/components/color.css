@@ -12,12 +12,15 @@
 /* #### Keys */
 
 --desaturated-dark-blue-key-bg: hsl(225, 21%, 49%);
+--desaturated-dark-blue-key-bg-clearer: hsl(225, 23%, 55%);
 --desaturated-dark-blue-key-shadow: hsl(224, 28%, 35%);
 
 --red-key-bg-toggle: hsl(6, 76%, 55%);
+--red-key-bg-toggle-clearer: hsl(6, 86%, 61%);
 --dark-red-key-shadow : hsl(6, 70%, 34%);
 
 --light-grayish-orange-key-bg: hsl(30, 25%, 89%);
+--light-grayish-orange-key-bg-clearer: hsl(30, 50%, 98%);
 --grayish-orange-key-shadow: hsl(28, 16%, 65%);
 
 /* #### Text */
@@ -36,12 +39,15 @@
 /* #### Keys */
 
 --dark-moderate-cyan-key-bg: hsl(185, 42%, 37%);
+--dark-moderate-cyan-key-bg-clearer: rgb(99, 175, 182);
 --very-dark-cyan-key-shadow: hsl(185, 58%, 25%);
 
 --orange-key-bg-toggle: hsl(25, 98%, 40%);
+--orange-key-bg-toggle-clearer: hsl(25, 84%, 47%);
 --dark-orange-key-shadow: hsl(25, 99%, 27%);
 
 --light-grayish-yellow-key-bg: hsl(45, 7%, 89%);
+--light-grayish-yellow-key-bg-clearer: hsl(0, 0%, 100%);
 --dark-grayish-orange-key-shadow: hsl(35, 11%, 61%);
 
 /* #### Text */
@@ -59,12 +65,15 @@
 /* #### Keys */
 
 --dark-violet-key-bg: hsl(281, 89%, 26%);
+--dark-violet-key-bg-clearer: hsl(281, 68%, 39%);
 --vivid-magenta-key-shadow: hsl(285, 91%, 52%);
 
 --pure-cyan-key-bg-toggle: hsl(176, 100%, 44%);
+--pure-cyan-key-bg-toggle-clearer: hsl(176, 100%, 58%);
 --soft-cyan-key-shadow: hsl(177, 92%, 70%);
 
 --very-dark-violet-key-bg: hsl(268, 47%, 21%);
+--very-dark-violet-key-bg-clearer: hsl(269, 53%, 48%);
 --dark-magenta-key-shadow: hsl(290, 70%, 36%);
 
 /* #### Text */

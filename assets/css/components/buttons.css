@@ -1,0 +1,123 @@
+/*****************************Buttons********************************/
+.calculator-buttons{
+
+	display: grid;
+	grid-template-columns:repeat(4, minmax(29px, 107px));
+	gap: 15px;
+	background-color: var(--very-dark-desaturated-blue-toggle-keypad-bg);
+	padding: 24px;
+	border-radius: 10px;
+	
+}
+.btn{
+	font-size: 29px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	border: 0;
+	padding-top: 5px;
+	color: var(--very-dark-grayish-blue);
+	background-color: var(--light-grayish-orange-key-bg);
+	box-shadow: 0px 4px 0px 0px var(--grayish-orange-key-shadow);
+	height: 55px;
+
+	transition: background-color 0.3s ease;
+	&:nth-child(16){
+		text-transform: lowercase;	
+	}
+	&:nth-child(17){
+		grid-column-start: 1;
+		grid-column-end: 3;
+		
+	}
+	&:nth-child(18){
+		grid-column-start: 3;
+		grid-column-end: 5;
+		font-size: 16px;
+		color: var(--white);
+		background-color: var(--red-key-bg-toggle);
+		box-shadow: 0px 4px 0px 0px var(--dark-red-key-shadow);
+		&:hover{
+			background-color: var(--red-key-bg-toggle-clearer);
+		}
+		
+	}
+	&:nth-child(4),&:nth-child(17){
+		font-size: 18px;
+		color: var(--white);
+		background-color: var(--desaturated-dark-blue-key-bg);
+		box-shadow: 0px 4px 0px 0px var(--desaturated-dark-blue-key-shadow);
+		&:hover{
+			background-color: var(--desaturated-dark-blue-key-bg-clearer);
+		}
+	}
+	&:active{
+		transform: translate(1px,1px);
+	}
+	&:hover{
+		cursor: pointer;
+		background-color: var(--light-grayish-orange-key-bg-clearer);
+	}
+}
+/*+++++++++++++++++++++++++++Buttons theme 2+++++++++++++++++++++++++++*/
+.calculator-buttons-theme2{
+	background-color: var(--grayish-red-toggle-key-bg);
+}
+
+.btn-theme2{
+
+	color: var(--very-dark-grayish-yellow);
+	background-color: var(--light-grayish-yellow-key-bg);
+	box-shadow: 0px 4px 0px 0px var(--dark-grayish-orange-key-shadow);
+	&:nth-child(18){
+		color: var(--white-text);
+		background-color: var(--orange-key-bg-toggle);
+		box-shadow: 0px 4px 0px 0px var(--dark-orange-key-shadow);
+		&:hover{
+			background-color: var(--orange-key-bg-toggle-clearer);
+		}
+		
+	}
+	&:nth-child(4),&:nth-child(17){
+		color: var(--white-text);
+		background-color: var(--dark-moderate-cyan-key-bg);
+		box-shadow: 0px 4px 0px 0px var(--very-dark-cyan-key-shadow);
+		&:hover{
+			background-color: var(--dark-moderate-cyan-key-bg-clearer);
+		}
+	}
+	&:hover{
+		background-color: var(--light-grayish-yellow-key-bg-clearer);
+	}
+}
+/*+++++++++++++++++++++++++++Buttons theme 3+++++++++++++++++++++++++++*/
+.calculator-buttons-theme3{
+	background-color: var(--very-dark-violet-toggle-keypad-screen-bg);
+}
+
+.btn-theme3{
+
+	color: var(--light-yellow);
+	background-color: var(--very-dark-violet-key-bg);
+	box-shadow: 0px 4px 0px 0px var(--dark-magenta-key-shadow);
+	&:nth-child(18){
+		color: var(--very-dark-blue);
+		background-color: var(--pure-cyan-key-bg-toggle);
+		box-shadow: 0px 4px 0px 0px var(--soft-cyan-key-shadow);
+		&:hover{
+			background-color: var(--pure-cyan-key-bg-toggle-clearer);
+		}
+		
+	}
+	&:nth-child(4),&:nth-child(17){
+		color: var(--white-text);
+		background-color: var(--dark-violet-key-bg);
+		box-shadow: 0px 4px 0px 0px var(--vivid-magenta-key-shadow);
+		&:hover{
+			background-color: var(--dark-violet-key-bg-clearer);
+		}
+		
+	}
+	&:hover{
+		background-color: var(--very-dark-violet-key-bg-clearer);
+	}
+}

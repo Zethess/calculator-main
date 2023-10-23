@@ -1,0 +1,90 @@
+/************************** Header ************************************/
+.calculator-top{
+	color: var(--white);
+	display: flex;
+	justify-content: space-between; 
+	width: 100%;
+	
+	& h1{
+		font-size: 28px;
+		margin-top: 6px;
+	}
+	& p{
+		text-transform: uppercase;
+		font-size: 10px;
+		align-self: flex-end;
+		letter-spacing: 1px;
+		margin-bottom: 6px;
+	}
+}
+.theme-box{
+	display: flex;
+	gap: 30px;
+	font-size: 14px;
+}
+.theme-input{
+	display: grid;
+	grid-template-areas: 
+	"labels"
+	"radios"
+	;
+}
+.label-box{
+	grid-area: labels;
+	margin-bottom: 3px;
+	font-size: 11px;
+	display: flex;
+	justify-content: space-around;
+	padding: 0px 4px;
+}
+.radio-box{
+	grid-area: radios;
+	background-color: var(--very-dark-desaturated-blue-toggle-keypad-bg);
+	height: 25px;
+	width: 65px;
+	justify-self: center;
+	
+    border-radius: 14px;
+	& input[type="radio"]{
+		cursor: pointer;
+		appearance: none;
+		height: 15px;
+		width: 15px;
+		border-radius: 50%;
+	}
+}
+.theme-inputs{
+	opacity: 0;
+	margin-top: 5px;
+	&:checked{
+		opacity: 1;
+	}
+	&:not(:checked):hover {
+		opacity: 0.5;
+		transition-duration: 500ms;
+	}
+}
+#radio-theme1{
+	background: var(--red-key-bg-toggle);
+	margin-left: 6px;
+}
+#radio-theme2{
+	background: var(--orange-key-bg-toggle);
+}
+#radio-theme3{
+	background: var(--pure-cyan-key-bg-toggle);
+}
+/*+++++++++++++++++++++++++++Header theme 2+++++++++++++++++++++++++++*/
+.calculator-top-theme2{
+	color: var(--very-dark-grayish-yellow);
+}
+.radio-box-theme2{
+	background-color: var(--grayish-red-toggle-key-bg);
+}
+/*+++++++++++++++++++++++++++Header theme 3+++++++++++++++++++++++++++*/
+.calculator-top-theme3{
+	color: var(--light-yellow);
+}
+.radio-box-theme3{
+	background-color: var(--very-dark-violet-toggle-keypad-screen-bg);
+}
